@@ -1,0 +1,76 @@
+@font-face{
+	font-family:'script';
+	src: url('./fonts/script.ttf') format('truetype');
+	font-family:'silverserif';
+	src: url('./fonts/silverserif.ttf') format('truetype');
+
+}
+.full-width{
+	width: 1200px;
+	margin: 0 auto;	
+}
+.half-width {
+	width: 600px;
+	margin: 0 auto;
+	float: left;
+}
+header h1{
+	float: left;
+	margin: 0;
+	padding: 50px 0;
+	font-size: 50px;
+	font-family:'script';
+	color: #cea0ae;
+}
+nav{
+	float: right;
+	padding: 25px 25px;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 25px;
+	padding: 0 10px;
+	display: inline;
+	font-family: 'silverserif';
+}
+nav ul li a{
+	text-decoration: none;
+	color: #c58882;
+}
+.row{
+	display: flex;
+	position: relative;	
+	float: left;
+	border: 2px;
+}
+.column{
+	flex: 50%;
+	padding: 50px;
+	border: 2px;
+}
+.column img{
+	border: 2px;
+}
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+#contact ul{
+	list-style: none;
+	clear: both;
+	float: right;
+}
+#contact ul li{
+	display: inline-block;
+	clear: both;
+}
+#contact ul img{
+	font-size: 32px;
+	padding-right: 48px;
+}	
